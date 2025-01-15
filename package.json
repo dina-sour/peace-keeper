@@ -1,0 +1,21 @@
+{
+  "name": "peace-keeper",
+  "version": "1.0.0",
+  "description": "Hi",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api/index.js",
+    "build": "echo 'Skipping build step' && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.4",
+    "twilio": "^5.4.1"
+  }
+}
